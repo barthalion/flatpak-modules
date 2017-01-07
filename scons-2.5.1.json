@@ -1,0 +1,17 @@
+{
+  "name": "scons",
+  "cleanup": [ "*" ],
+  "no-autogen": true,
+  "sources": [
+    {
+      "type": "archive",
+      "url": "http://downloads.sourceforge.net/project/scons/scons/2.5.1/scons-2.5.1.tar.gz",
+      "sha256": "0b25218ae7b46a967db42f2a53721645b3d42874a65f9552ad16ce26d30f51f2"
+    },
+    {
+      "type": "file",
+      "path": "modules/scons-Makefile",
+      "dest-filename": "Makefile"
+    }
+  ]
+}
